@@ -1,0 +1,68 @@
+.about {
+  padding: 4rem 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about-intro {
+  max-width: 95%;
+  margin: 5rem auto 10rem auto;
+  padding: 2rem 2.5rem;
+
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+
+
+.about-content {
+  padding: 5rem auto 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+/* TEXT takes more space */
+.about-text {
+  flex: 2;               /* ✅ text gets double the space */
+}
+
+
+.about-image {     
+  max-width: 600px;     
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.about-text  {
+  background-color: #faf7f2; /* softer than antiquewhite */
+  color: #333;
+
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem 2.5rem;
+}
+
+.about-text ul {
+  padding-left: 3rem;
+}
+
+.about-text li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+
