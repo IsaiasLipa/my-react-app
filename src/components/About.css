@@ -8,7 +8,6 @@
   max-width: 95%;
   margin: 5rem auto 10rem auto;
   padding: 2rem 2.5rem;
-
   text-align: center;
   font-size: 1.7rem;
   line-height: 1.6;
@@ -26,9 +25,8 @@
 
 /* TEXT takes more space */
 .about-text {
-  flex: 2;               /* ✅ text gets double the space */
+  flex: 2;      
 }
-
 
 .about-image {     
   max-width: 600px;     

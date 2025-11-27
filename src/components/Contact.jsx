@@ -1,16 +1,16 @@
 import './Contact.css';
-export default function Contact() {
+export default function Contact({texts}) {
     return (
         <section id='contact' class="contact-section">
 
             <div class="contact-content">
-                <h2 class="section-title">Contact us</h2>
+                <h2 class="section-title">{texts.title}</h2>
                 <div class="contact-body">
                     <p class="contact-heading">
-                        Are you a Medicaid/Medicare patient in need of transportation?
+                        {texts.heading}
                     </p>
                     <p class="contact-subtext">
-                        Book your appointments through MAS and ask for <strong>LIPAID</strong>.
+                        {texts.subtext}
                     </p>
                 </div>
 
