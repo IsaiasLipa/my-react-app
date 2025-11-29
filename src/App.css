@@ -9,3 +9,16 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.language-switcher {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    background-color: #faf7f2;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 5rem;
+}

@@ -3,7 +3,6 @@ import aboutImage from '../assets/aboutImage.png';
 import { useEffect, useRef } from 'react';
 export default function About({texts}) {
 
-  console.log(texts);
   return (
     <section id="about" className="about">
 

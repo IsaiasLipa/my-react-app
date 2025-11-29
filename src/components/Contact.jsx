@@ -1,15 +1,15 @@
 import './Contact.css';
 export default function Contact({texts}) {
     return (
-        <section id='contact' class="contact-section">
+        <section id='contact' className="contact-section">
 
-            <div class="contact-content">
-                <h2 class="section-title">{texts.title}</h2>
-                <div class="contact-body">
-                    <p class="contact-heading">
+            <div className="contact-content">
+                <h2 className="section-title">{texts.title}</h2>
+                <div className="contact-body">
+                    <p className="contact-heading">
                         {texts.heading}
                     </p>
-                    <p class="contact-subtext">
+                    <p className="contact-subtext">
                         {texts.subtext}
                     </p>
                 </div>

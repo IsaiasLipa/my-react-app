@@ -20,8 +20,9 @@ function App() {
       </main>
       <button
         onClick={() => setLanguage( language === 'en' ? 'es' : 'en')}
+        className='language-switcher'
       >
-        {language === 'en' ? 'Espanol' : 'English'}
+        {language === 'en' ? 'Español' : 'English'}
       </button>
     </>
   )
