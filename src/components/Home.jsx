@@ -12,6 +12,5 @@ export default function Home({texts}) {
 
             <button className='book-button'> {texts.cta}</button>
         </div>
-
     );
 }
