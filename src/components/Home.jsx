@@ -10,7 +10,7 @@ export default function Home({texts}) {
                 <p>{texts.title}</p>
             </div>
 
-            <button className='book-button'> {texts.cta}</button>
+            <a className='book-button' href="#contact"> {texts.cta}</a>
         </div>
     );
 }
