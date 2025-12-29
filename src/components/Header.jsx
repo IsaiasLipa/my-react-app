@@ -1,6 +1,6 @@
 
 import './Header.css';
-import Logo1_White from '../assets/Logo1_White.png';
+import Logo1 from '../assets/Logo1.png';
 import { useState } from 'react';
 
 export default function Header({ texts }) {
@@ -9,7 +9,7 @@ export default function Header({ texts }) {
     <header className="header">
       <nav className="nav-bar">
         <div className="logo-background">
-          <img src={Logo1_White} alt="Lipaid Logo" className="logo" />
+          <img src={Logo1} alt="Lipaid Logo" className="logo" />
         </div>
 
         {/* Hamburger button (mobile only) */}

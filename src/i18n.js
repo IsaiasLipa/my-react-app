@@ -38,7 +38,7 @@ export const translations = {
       contact: 'Contact'
     },
     home: {
-      title: "su salud es nuestra prioridad y su comodidad nuestro compromiso",
+      title: "Su salud es nuestra prioridad y su comodidad nuestro compromiso",
       cta: "Book your trip now"
     },
     aboutUs: {

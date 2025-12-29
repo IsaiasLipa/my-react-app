@@ -22,18 +22,18 @@
 .nav-button {
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 1rem;
     padding: 8px 16px;
     text-decoration: none;
-    border: 1px solid #2F2F2F;
+    border: 1px solid white;
+    border-radius: 4px;
 }
 
 .nav-button:hover {
-    background: white;
-    color: black;
+    background: rgba(0, 0, 0, 0.8);;
+    color: white;
     border: 1px solid white;
-    border-radius: 4px;
 }
 
 .nav-buttons button {
@@ -46,7 +46,7 @@
 }
 
 .header{
-    background-color: #2F2F2F;
+    background-color: white;
     height: 15%;
 }
 
